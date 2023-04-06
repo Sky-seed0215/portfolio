@@ -1,16 +1,18 @@
 import './css/Navbar.css';
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 function Navbar() {
     return (
         <body>
           <header class="header">
             <a href="/" class="logo">Portfolio.</a>
             <nav class="navbar">
-              <a href="/">Home</a>
-              <a href="/about">About</a>
-              <a href="/skills">Skills</a>
-              <a href="/portfolio">Portfolio</a>
-              <a href="/contact">Contact</a>
+              <AnchorLink href="#home">Home</AnchorLink>
+              <AnchorLink href="#about">About</AnchorLink>
+              <AnchorLink href="#services">Skills</AnchorLink>
+              <AnchorLink href="#portfolio">Portfolio</AnchorLink>
+              <AnchorLink href="#contact">Contact</AnchorLink>
             </nav>
           </header>
         </body>

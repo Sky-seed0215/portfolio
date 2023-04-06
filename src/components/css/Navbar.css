@@ -24,15 +24,19 @@
 }
 
 .navbar a {
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
-    opacity: 0;
-    animation: slideTop .5s ease forwards;
-  }
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .3s;
+  opacity: 0;
+  animation: slideTop .5s ease forwards;
+}
+
+.navbar a:hover {
+  color: #0ef;
+}
 
   @keyframes slideTop {
     0% {
@@ -45,3 +49,9 @@
       opacity: 1;
     }
   }
+
+@media (max-width: 991px) {
+  .header {
+    padding: 2rem 3%;
+  }
+}
