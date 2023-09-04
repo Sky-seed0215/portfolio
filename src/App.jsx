@@ -79,7 +79,7 @@ function App() {
             <div class="portfolio-layer">
               <h4>Github Repository Tracker</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-              <a href='#'><i class='bx bxl-github'></i></a>
+              <a href='https://github.com/Sky-seed0215/repository-tracker'><i class='bx bxl-github'></i></a>
             </div>
           </div>
           <div class="portfolio-box">
@@ -87,7 +87,7 @@ function App() {
             <div class="portfolio-layer">
               <h4>Github Repository Tracker</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-              <a href='#'><i class='bx bxl-github'></i></a>
+              <a href='https://github.com/Sky-seed0215/repository-tracker'><i class='bx bxl-github'></i></a>
             </div>
           </div>
         </div>
