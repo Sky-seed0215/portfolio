@@ -11,114 +11,114 @@ function App() {
     <body>
       <Navbar />
 
-      <section class="home" id="home">
-        <div class="home-content">
+      <section className="home" id="home">
+        <div className="home-content">
           <h3>Hello, It's Me</h3>
           <h1>Skydelta</h1>
-          <h3>And I'm a <span class="multiple-text"></span></h3>
-          <p class="normal-text"></p>
-          <div class="social-media">
-            <a href="https://twitter.com/deltabloomm"><i class='bx bxl-twitter'></i></a>
-            <a href="https://github.com/Sky-seed0215"><i class='bx bxl-github' ></i></a>
-            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+          <h3>And I'm a <span className="multiple-text"></span></h3>
+          <p className="normal-text"></p>
+          <div className="social-media">
+            <a href="https://twitter.com/deltabloomm"><i className='bx bxl-twitter'></i></a>
+            <a href="https://github.com/Sky-seed0215"><i className='bx bxl-github' ></i></a>
+            <a href="#"><i className='bx bxl-linkedin' ></i></a>
           </div>
-          <a href="#" class="btn">Download source cord</a>
+          <a href="#" className="btn">Download source cord</a>
         </div>
 
-        <div class="home-img">
+        <div className="home-img">
           <img src={logo} alt="logo" />
         </div>
       </section>
 
-      <section class="about" id="about">
-        <div class="about-img">
+      <section className="about" id="about">
+        <div className="about-img">
           <img src={about} alt="about" />
         </div>
 
-        <div class="about-content">
-          <h2 class="heading">About <span>Me</span></h2>
+        <div className="about-content">
+          <h2 className="heading">About <span>Me</span></h2>
           <h3>Discord Bot Developer</h3>
-          <p class="about-text"></p>
-          <a href='#' class="btn">Read More</a>
+          <p className="about-text"></p>
+          <a href='#' className="btn">Read More</a>
         </div>
       </section>
 
-      <section class="services" id="services">
-        <h2 class="heading">My <span>Skills</span></h2>
+      <section className="services" id="services">
+        <h2 className="heading">My <span>Skills</span></h2>
 
-        <div class="services-container">
-            <div class="services-box">
-              <i class='bx bxl-react'></i>
+        <div className="services-container">
+            <div className="services-box">
+              <i className='bx bxl-react'></i>
               <h3>Frontend Development</h3>
-              <p class="services-text-1"></p>
-              <a href="#" class="btn">Read More</a>
+              <p className="services-text-1"></p>
+              <a href="#" className="btn">Read More</a>
             </div>
 
-            <div class="services-box">
-              <i class='bx bxl-discord-alt'></i>
+            <div className="services-box">
+              <i className='bx bxl-discord-alt'></i>
               <h3>Discord Bot Development</h3>
-              <p class="services-text-2"></p>
-              <a href="#" class="btn">Read More</a>
+              <p className="services-text-2"></p>
+              <a href="#" className="btn">Read More</a>
             </div>
 
-            <div class="services-box">
-              <i class='bx bxs-data'></i>
+            <div className="services-box">
+              <i className='bx bxs-data'></i>
               <h3>Backend Development</h3>
-              <p class="services-text-3"></p>
-              <a href="#" class="btn">Read More</a>
+              <p className="services-text-3"></p>
+              <a href="#" className="btn">Read More</a>
             </div>
           </div>
       </section>
 
-      <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
+      <section className="portfolio" id="portfolio">
+        <h2 className="heading">Latest <span>Project</span></h2>
 
-        <div class="portfolio-container">
-          <div class="portfolio-box">
+        <div className="portfolio-container">
+          <div className="portfolio-box">
             <img src="https://images-ext-2.discordapp.net/external/MBuT3Np4p3j-WFU6YdR0y4xpd3Unf_E-gL8-SM0sWdU/https/opengraph.githubassets.com/a792db5e10bfe3a60559ad52cd0ccf4396e525a4c270dd106f5dd2cb22f26084/Sky-seed0215/repository-tracker?width=1800&height=900" alt="port1" />
-            <div class="portfolio-layer">
+            <div className="portfolio-layer">
               <h4>Github Repository Tracker</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-              <a href='https://github.com/Sky-seed0215/repository-tracker'><i class='bx bxl-github'></i></a>
+              <a href='https://github.com/Sky-seed0215/repository-tracker'><i className='bx bxl-github'></i></a>
             </div>
           </div>
-          <div class="portfolio-box">
+          <div className="portfolio-box">
             <img src="https://images-ext-2.discordapp.net/external/MBuT3Np4p3j-WFU6YdR0y4xpd3Unf_E-gL8-SM0sWdU/https/opengraph.githubassets.com/a792db5e10bfe3a60559ad52cd0ccf4396e525a4c270dd106f5dd2cb22f26084/Sky-seed0215/repository-tracker?width=1800&height=900" alt="port1" />
-            <div class="portfolio-layer">
+            <div className="portfolio-layer">
               <h4>Github Repository Tracker</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-              <a href='https://github.com/Sky-seed0215/repository-tracker'><i class='bx bxl-github'></i></a>
+              <a href='https://github.com/Sky-seed0215/repository-tracker'><i className='bx bxl-github'></i></a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
+      <section className="contact" id="contact">
+        <h2 className="heading">Contact <span>Me</span></h2>
 
-        <form action='#' class="form-base">
-          <div class="input-box">
+        <form action='#' className="form-base">
+          <div className="input-box">
             <input type="text" placeholder="Full Name" />
             <input type="email" placeholder='Email Address' />
           </div>
-          <div class="input-box">
+          <div className="input-box">
             <input type="tel" placeholder='Mobile Number' />
             <input type="text" placeholder='Email Subject' />
           </div>
           <textarea name='' id='' cols="30" rows="10" placeholder='Your Message'></textarea>
-          <input type="submit" value="Send Message" class="btn" />
+          <input type="submit" value="Send Message" className="btn" />
         </form>
       </section>
 
       {/* footer */}
 
-      <footer class="footer">
-        <div class="footer-text">
-          <p>Copyright &copy; 2023 by skydelta | All Rights Reserved.</p>
+      <footer className="footer">
+        <div className="footer-text">
+          <p>Copyright &copy; 2024 by skydelta | All Rights Reserved.</p>
         </div>
 
-        <div class="footer-iconTop">
-          <AnchorLink class="up-btn" href="#home"><i class="bx bx-up-arrow-alt"></i></AnchorLink>
+        <div className="footer-iconTop">
+          <AnchorLink className="up-btn" href="#home"><i className="bx bx-up-arrow-alt"></i></AnchorLink>
         </div>
       </footer>
     </body>
